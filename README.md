@@ -1,4 +1,4 @@
-# 광주 마에스터고등학교 코딩 수업 정보 공유 저장소
+# 광주 마이스터고등학교 코딩 수업 정보 공유 저장소
 
 ## 아래 주소를 입력하면 이곳으로 올 수 있습니다.
 http://bit.ly/마이스터
@@ -21,4 +21,3 @@ https://opentutorials.org/course/3085
 
 ### WEB2 - Node.js
 https://opentutorials.org/course/3332
-
