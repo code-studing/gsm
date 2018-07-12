@@ -4,7 +4,7 @@
 http://bit.ly/마이스터
 
 ## 질문 & 답변
-https://app2.sli.do/event/ofckltio/questions
+https://github.com/code-studing/gsm/issues
 
 ## 소스코드 비교
 https://diff.ga/#r3scfb
@@ -21,4 +21,3 @@ https://opentutorials.org/course/3085
 
 ### WEB2 - Node.js
 https://opentutorials.org/course/3332
-
