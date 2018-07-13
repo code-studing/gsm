@@ -1,0 +1,26 @@
+a{
+  color:red;
+  text-decoration: none;
+}
+#active{
+  color:blue;
+}
+.visited{
+  color:powderblue;
+}
+@media(min-width:800px) {
+  h1 {
+    border-bottom:powderblue 10px solid;
+    padding:50px;
+    margin:0;
+  }
+  ul{
+    border-right:powderblue 10px solid;
+    width:140px;
+    margin:0;
+  }
+  #grid{
+    display:grid;
+    grid-template-columns: 200px 1fr;
+  }
+}
