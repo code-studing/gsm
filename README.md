@@ -15,6 +15,7 @@ https://opentutorials.org/course/3084
 
 ### WEB2 - CSS
 https://opentutorials.org/course/3086
+https://flukeout.github.io/
 
 ### WEB2 - JavaScript
 https://opentutorials.org/course/3085
