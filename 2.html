@@ -7,6 +7,14 @@
 </head>
 <body>
 <h1><a href="index.html" >WEB</a></h1>
+<script src="script.js"></script>
+<input id="toggle" type="button" value="night" onclick="
+  if(document.querySelector('#toggle').value == 'night'){
+    color('white', 'black', 'day');
+  } else {
+    color('black', 'white', 'night');
+  }
+">
 <div id="grid">
   <ul>
   <li><a href="1.html" class="visited">HTML</a></li>

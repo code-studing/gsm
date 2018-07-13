@@ -7,33 +7,13 @@
 </head>
 <body>
 <h1><a href="index.html">WEB</a></h1>
-<script>
-  function color(fontColor, bgColor, lable){
-    document.querySelector('body').style.color=fontColor;
-    document.querySelector('body').style.backgroundColor=bgColor;
-    document.querySelector('#toggle').value = lable;
-    var alist = document.querySelectorAll('a');
-    var i = 0;
-    while(i<alist.length){
-      alist[i].style.color = fontColor;
-      i = i + 1;
-    }
-  }
-</script>
+<script src="script.js"></script>
 <input id="toggle" type="button" value="night" onclick="
   if(document.querySelector('#toggle').value == 'night'){
     color('white', 'black', 'day');
   } else {
     color('black', 'white', 'night');
   }
-">
-<input type="button" value="night" onclick="
-  document.querySelector('body').style.color='white';
-  document.querySelector('body').style.backgroundColor='black';
-">
-<input type="button" value="day" onclick="
-  document.querySelector('body').style.color='black';
-  document.querySelector('body').style.backgroundColor='white';
 ">
 <div id="grid">
   <ul>
