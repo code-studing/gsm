@@ -8,6 +8,7 @@
 <body>
 <h1><a href="index.html">WEB</a></h1>
 <script>
+
   function nightColor(){
     document.querySelector('body').style.color='white';
     document.querySelector('body').style.backgroundColor='black';
@@ -18,12 +19,19 @@
     document.querySelector('body').style.backgroundColor='white';
     document.querySelector('#toggle').value = 'night';
   }
+
+  function color(fontColor, bgColor, lable){
+    document.querySelector('body').style.color=fontColor;
+    document.querySelector('body').style.backgroundColor=bgColor;
+    document.querySelector('#toggle').value = lable;
+  }
 </script>
 <input id="toggle" type="button" value="night" onclick="
   // id가 toggle인 태그의 value 값이 night라면
   if(document.querySelector('#toggle').value == 'night'){
     // 배경을 검은색으로
-    nightColor();
+    //nightColor();
+    color('white', 'black', 'day');
 
     var alist = document.querySelectorAll('a');
     var i = 0;
@@ -34,7 +42,8 @@
   } else {
     // 아니라면
     // 배경을 흰색으로
-    dayColor();
+    //dayColor();
+    color('black', 'white', 'night');
 
     var alist = document.querySelectorAll('a');
     var i = 0;
