@@ -4,21 +4,21 @@
 http://bit.ly/마이스터
 
 ## 질문 & 답변
-https://github.com/code-studing/gsm/issues
+[Link](https://github.com/code-studing/gsm/issues)
 
 ## 소스코드 비교
-https://diff.ga/#r3scfb
+[Link](https://diff.ga/#r3scfb)
 
 ## 수업내용
 ### WEB1 - HTML & Internet
-https://opentutorials.org/course/3084
+- [Link](https://opentutorials.org/course/3084)
 
 ### WEB2 - CSS
-https://opentutorials.org/course/3086
-https://flukeout.github.io/
+- [Link1](https://opentutorials.org/course/3086)
+- [Link2](https://flukeout.github.io/)
 
 ### WEB2 - JavaScript
-https://opentutorials.org/course/3085
+- [Link](https://opentutorials.org/course/3085)
 
 ### WEB2 - Node.js
-https://opentutorials.org/course/3332
+- [Link](https://opentutorials.org/course/3332)
