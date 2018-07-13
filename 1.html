@@ -14,12 +14,26 @@
     document.querySelector('body').style.color='white';
     document.querySelector('body').style.backgroundColor='black';
     document.querySelector('#toggle').value = 'day';
+
+    var alist = document.querySelectorAll('a');
+    var i = 0;
+    while(i<alist.length){
+      alist[i].style.color = 'white';
+      i = i + 1;
+    }
   } else {
     // 아니라면
     // 배경을 흰색으로
     document.querySelector('body').style.color='black';
     document.querySelector('body').style.backgroundColor='white';
     document.querySelector('#toggle').value = 'night';
+
+    var alist = document.querySelectorAll('a');
+    var i = 0;
+    while(i<alist.length){
+      alist[i].style.color = 'black';
+      i = i + 1;
+    }
   }
 ">
 <input type="button" value="night" onclick="

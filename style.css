@@ -1,12 +1,9 @@
 a{
-  color:red;
   text-decoration: none;
 }
 #active{
-  color:blue;
 }
 .visited{
-  color:powderblue;
 }
 @media(min-width:800px) {
   h1 {

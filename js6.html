@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>loop</h1>
+    <script>
+      var i = 0;
+      while(i < 3){
+        document.write(1);
+        i = i + 1;
+      }
+    </script>
+    <h1>Array(배열)</h1>
+    <script>
+      var four = ['규리','동건','지형','유진'];
+      document.write(four[1]);
+      document.write('<br>');
+      document.write(four.length);
+    </script>
+    <h1>Loop + Array</h1>
+    <script>
+      var four = ['규리','동건','지형','유진','나경','재홍'];
+      document.write('<ul>');
+      //four에 있는 값의 수만큼 반복해서
+      // li 태그를 만든다.
+      var i = 0;
+      while(i <  four.length){
+        document.write('<li>'+four[i]+'</li>');
+        i = i + 1;
+      }
+      document.write('</ul>');
+    </script>
+  </body>
+</html>
