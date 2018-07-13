@@ -4,7 +4,7 @@
       height: 200px;
       margin-top: 100px;
       background-color: coral; 
-      animation: square-to-circle 2s ease 0s infinite;
+      animation: square-to-circle 2s 1s infinite cubic-bezier(1,.015,.295,1.225) alternate;
       position: relative;
       overflow: hidden;
     }
@@ -49,7 +49,8 @@
         margin-left: 40%;
       }
     }
-    
-    
-    </style>
+</style>
+
+<div class="move">
+</div>
     
