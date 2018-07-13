@@ -12,6 +12,7 @@ https://diff.ga/#r3scfb
 ## 수업내용
 ### WEB1 - HTML & Internet
 https://opentutorials.org/course/3084
+https://github.com/web-n/web1_html_internet
 
 ### WEB2 - CSS
 https://opentutorials.org/course/3086
