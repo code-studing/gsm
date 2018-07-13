@@ -1,0 +1,55 @@
+<style>
+    .move {
+      width: 200px;
+      height: 200px;
+      margin-top: 100px;
+      background-color: coral; 
+      animation: square-to-circle 2s ease 0s infinite;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    @keyframes square-to-circle {
+      0%{}
+      25%{}
+      50%{}
+      75%{}
+      100%{}
+    }
+    @keyframes square-to-circle {
+      0%  {
+        border-radius:0 0 0 0;
+        background:coral;
+        transform:rotate(0deg);
+        margin-left: 0%;
+        
+      }
+      25%  {
+        border-radius:50% 0 0 0;
+        background:darksalmon;
+        transform:rotate(45deg);
+        margin-left: 10%;
+      }
+      50%  {
+        border-radius:50% 50% 0 0;
+        background:indianred;
+        transform:rotate(90deg);
+        margin-left: 20%;
+      }
+      75%  { 
+        border-radius:50% 50% 50% 0;
+        background:lightcoral;
+        transform:rotate(135deg);
+        margin-left: 30%;
+      }
+      100% {  
+        border-radius:50%;
+        background:darksalmon;
+        transform:rotate(180deg);
+        margin-left: 40%;
+      }
+    }
+    
+    
+    </style>
+    
