@@ -14,21 +14,31 @@ http.createServer(function (req, res) {
     }
     list = list + '</ol>';
     fs.readFile(`./data/${qs.id}`, 'utf8', function(error, data){
-    res.write(`
-    <!doctype html>
-    <html>
-    <head>
-      <meta charset="utf-8">
-    </head>
-    <body>
-      <h1><a href="index.html">WEB</a></h1>
-      ${list}
-      <h2>${qs.id}</h2>
-      ${data}
-    </body>
-    </html>
-    `); //write a response to the client
-    res.end(); //end the response
+      var title = qs.id;
+      var desc = data;
+      //만약에 title의 값이 undefined이면
+      if(title === undefined) {
+        //  title의 값을 Welcome으로 한다.
+        title = 'Welcome';
+      }
+      if(desc === undefined){
+        desc = 'Hello, WEB';
+      }
+      res.write(`
+      <!doctype html>
+      <html>
+      <head>
+        <meta charset="utf-8">
+      </head>
+      <body>
+        <h1><a href="/">WEB</a></h1>
+        ${list}
+        <h2>${title}</h2>
+        ${desc}
+      </body>
+      </html>
+      `); //write a response to the client
+      res.end(); //end the response
   })
   });
 
