@@ -9,7 +9,7 @@ http.createServer(function (req, res) {
     var list = '<ul>';
     var i = 0;
     while(i < files.length){
-      list = list + `<li>${files[i]}</li>`;
+      list = list + `<li><a href="/?id=${files[i]}">${files[i]}</a></li>`;
       i++;
     }
     list = list + '</ul>';
