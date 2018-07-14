@@ -4,7 +4,7 @@ var fs = require('fs');
 http.createServer(function (req, res) {
   var qs =url.parse(req.url, true).query;
 
-  fs.readFile('./data/JavaScript', 'utf8', function(error, data){
+  fs.readFile(`./data/${qs.id}`, 'utf8', function(error, data){
     res.write(`
     <!doctype html>
     <html>
@@ -19,7 +19,7 @@ http.createServer(function (req, res) {
         <li><a href="/?id=JavaScript">JavaScript</a></li>
       </ol>
       <h2>${qs.id}</h2>
-      <p>HTML is ...</p>
+      ${data}
     </body>
     </html>
     `); //write a response to the client
