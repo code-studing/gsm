@@ -6,13 +6,13 @@ http.createServer(function (req, res) {
 
   fs.readdir('./data', function(error2, files){
     console.log(files);
-    var list = '<ul>';
+    var list = '<ol>';
     var i = 0;
     while(i < files.length){
       list = list + `<li><a href="/?id=${files[i]}">${files[i]}</a></li>`;
       i++;
     }
-    list = list + '</ul>';
+    list = list + '</ol>';
     fs.readFile(`./data/${qs.id}`, 'utf8', function(error, data){
     res.write(`
     <!doctype html>
